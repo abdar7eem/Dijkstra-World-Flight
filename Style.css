@@ -1,0 +1,157 @@
+
+.main-background{
+    -fx-background-color: linear-gradient(to right, #FFFF, #FFFF, grey);
+}
+
+.radio-button .radio {
+    -fx-border-width: 0px;
+    -fx-background-image: null;
+    -fx-border-radius: 0px;
+    -fx-padding: 0px;
+}
+
+.radio-button:selected  {
+    -fx-border-color: green;
+}
+
+.radio-button .dot {
+    -fx-background-radius: 0px;
+    -fx-padding: 0px;
+}
+
+.choose {
+    -fx-border-radius: 25 25 25 25;
+    -fx-font-size: 14;
+    -fx-font-family: Times New Roman;
+    -fx-font-weight: Bold;
+    -fx-background-color: #d8d9e0;
+    -fx-border-color: #d8d9e0;
+    -fx-border-width: 3.5;
+    -fx-background-radius: 25 25 25 25;
+
+}
+
+.choose:hover{
+    -fx-background-color: #FFFF;
+    -fx-border-color: rgb(255, 165, 0);
+    -fx-border-width: 3.5;
+    -fx-background-radius: 25 25 25 25;
+}
+
+.TextHover{
+    -fx-effect: dropshadow(gaussian, rgb(255, 165, 0), 12, 0.2, 0, 0);}
+
+.label-with-tf {
+    -fx-border-color: #d8d9e0;
+    -fx-font-size: 20;
+    -fx-border-width: 1;
+    -fx-border-radius: 50;
+    -fx-font-weight: Bold;
+    -fx-background-color: #d8d9e0;
+    -fx-background-radius: 50 0 0 50;
+    -fx-font-family: Arial;
+    
+}
+
+.outline{
+    -fx-effect: dropshadow(gaussian, rgb(0, 0, 0), 12, 0.2, 0, 0);
+}
+.img-outline{
+    -fx-effect: dropshadow(gaussian, rgb(0, 0, 0), 50, 0.2, 0, 0);
+}
+
+.combo {
+    -fx-border-radius: 0 50 50 0;
+    -fx-font-size: 14;
+    -fx-font-family: Times New Roman;
+    -fx-font-weight: Bold;
+    -fx-background-color: #f6f6f6;
+    -fx-border-color: #d8d9e0;
+    -fx-border-width: 3.5;
+    -fx-text-fill: #ff6800;
+    -fx-background-radius: 0 50 50 0;
+}
+
+.vbox-border{
+    -fx-border-color: black;
+    -fx-border-radius: 30;
+    -fx-border-width: 3;
+}
+
+.table-view-style {
+    -fx-background-color: transparent;
+}
+
+.table-view-style .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+.table-view-style .corner {
+    -fx-background-color: transparent;
+}
+/* to change color of the top header*/
+.table-view-style .column-header-background{
+    -fx-background-color: #FFFF;
+    -fx-padding: 0 0 5px 0;
+}
+/* to change the column header to transparent */
+.table-view-style .column-header {
+    -fx-background-color: transparent;
+}
+/* to change the corner of table to transparent */
+.table-view-style-style .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+    -fx-font-size: 11.0px;
+}
+/* to change color of odd row */
+.table-row-cell:odd{
+    -fx-background-color: #f6f6f6;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+/* to change color of even row */
+.table-row-cell:even{
+    -fx-background-color:  #d8d9e0;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+/* to change color of selected row */
+.table-row-cell:hover{
+    -fx-background-color: #d8d9e0;
+    -fx-text-background-color: #CE2029;
+}
+
+/* to remove track background of scroll bar */
+.table-view-style .virtual-flow .scroll-bar:vertical,
+.table-view-style .virtual-flow .scroll-bar:vertical .track,
+.table-view-style .virtual-flow .scroll-bar:vertical .track-background,
+.table-view-style .virtual-flow .scroll-bar:horizontal,
+.table-view-style .virtual-flow .scroll-bar:horizontal .track,
+.table-view-style .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+/*
+ * to remove button of scroll bar 
+*/
+.table-view-style .virtual-flow .scroll-bar .increment-button,
+.table-view-style .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+}
+.table-view-style .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  linear-gradient(to bottom, #d8d9e0, #f6f6f6);
+}
+
+.table-view-style .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color:  linear-gradient(to right, #d8d9e0, #f6f6f6);
+}
+
+.background {
+    -fx-background-image: url("img/background1.png");
+    -fx-background-size: 800px 800px; 
+    -fx-background-repeat: no-repeat;
+    
+}
+
+
+

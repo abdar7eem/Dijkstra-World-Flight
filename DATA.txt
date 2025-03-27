@@ -1,0 +1,263 @@
+55 206
+Abu-Dhabi 24.4648 54.3618
+Abuja 9.0574 7.4898
+Algiers 36.7525 3.042
+Amman 31.9552 35.945
+Ankara 39.9199 32.8543
+Athens 37.9534 23.749
+Baghdad 33.3406 44.4009
+Bangkok 13.722 100.5252
+Beirut 33.8869 35.5131
+Beijing 39.9075 116.3972
+Berlin 52.5244 13.4105
+Brasilia -15.7797 -47.9297
+Brussels 50.8467 4.3499
+Buenos-Aires -34.6051 -58.4004
+Cairo 30.0392 31.2394
+Canberra -35.2835 149.1281
+Cape-Town -33.9258 18.4232
+Copenhagen 55.6759 12.5655
+Doha 25.276987 51.520008
+Dublin 53.3331 -6.2489
+Hanoi 21.0245 105.8412
+Helsinki 60.1692 24.9402
+Islamabad 33.7035 73.0594
+Istanbul 41.0082 28.9784
+Jeddah 21.2854 39.2376
+Jakarta -6.2118 106.8416
+Jerusalem 31.7834 35.2339
+Kyiv 50.4454 30.5186
+Lima -12.0432 -77.0282
+London 51.5085 -0.1257
+Luanda -8.8368 13.2343
+Madrid 40.4165 -3.7026
+Manama 26.2041 50.5860
+Mexico-City 19.4273 -99.1419
+Mogadishu 2.0416 45.3435
+Moscow 55.755 37.6218
+Muscat 23.5859 58.4059
+N'Djamena 12.1067 15.0444
+Niamey 13.5137 2.1098
+Oslo 59.9127 10.7461
+Ottawa 45.4166 -75.698
+Paris 48.8534 2.3488
+Rabat 34.0133 -6.8326
+Reykjavik 64.1355 -21.8954
+Riyadh 24.6905 46.7096
+Rome 41.8947 12.4811
+Santiago -33.4569 -70.6483
+Seoul 37.5683 126.9778
+Stockholm 59.3326 18.0649
+Tehran 35.6944 51.4215
+Tokyo 35.6895 139.6917
+Warsaw 52.2298 21.0118
+Washington 38.8951 -77.0364
+Wellington -41.2866 174.7756
+Yamoussoukro 5.3453 -4.0268
+*******************************************************
+Abu-Dhabi Cairo 350 210
+Abu-Dhabi Riyadh 250 120
+Abu-Dhabi Amman 200 180
+Abuja Yamoussoukro 450 900
+Abuja Niamey 350 720
+Abuja Cape-Town 500 540
+Algiers Paris 200 150
+Algiers Rabat 150 90
+Algiers Cairo 300 210
+Amman Abu-Dhabi 300 210
+Amman Baghdad 120 75
+Amman Beirut 70 60
+Amman Cairo 180 90
+Amman Riyadh 250 120
+Amman Istanbul 280 150
+Ankara Ottawa 800 720
+Ankara Abu-Dhabi 400 240
+Ankara Amman 250 120
+Ankara Berlin 300 180
+Ankara Tokyo 1000 720
+Ankara Algiers 450 300
+Ankara Canberra 1200 1200
+Ankara Jakarta 900 600
+Ankara Jerusalem 350 270
+Athens Rome 150 120
+Athens Ankara 180 90
+Athens Paris 250 180
+Baghdad Riyadh 220 120
+Baghdad Tehran 180 90
+Baghdad Ankara 300 180
+Bangkok Jakarta 250 150
+Bangkok Beijing 400 240
+Bangkok Hanoi 180 120
+Beijing Ankara 600 300
+Beijing Moscow 500 240
+Beijing Rome 800 540
+Beijing Yamoussoukro 900 720
+Beijing Tokyo 450 240
+Beijing Dublin 700 480
+Beijing Bangkok 400 180
+Beijing Islamabad 350 240
+Beijing Abu-Dhabi 600 360
+Beijing Madrid 700 600
+Beijing Berlin 800 480
+Beijing Stockholm 750 420
+Beijing Niamey 1000 600
+Beijing Tehran 550 300
+Beijing Jakarta 500 240
+Berlin Washington 700 540
+Berlin London 180 90
+Berlin Cairo 600 300
+Berlin Rome 200 150
+Berlin Rabat 400 240
+Berlin Kyiv 300 120
+Berlin Stockholm 150 90
+Berlin Moscow 250 180
+Berlin Ankara 350 240
+Berlin Copenhagen 200 120
+Brasilia Buenos-Aires 350 300
+Brasilia Lima 450 240
+Brasilia Washington 800 480
+Brussels Paris 180 90
+Brussels Berlin 200 120
+Brussels London 250 150
+Buenos-Aires Brasilia 300 240
+Buenos-Aires Santiago 200 150
+Buenos-Aires Lima 400 240
+Cairo Riyadh 500 240
+Cairo Abu-Dhabi 350 210
+Cairo Amman 300 120
+Cape-Town Abuja 450 360
+Cape-Town Luanda 300 240
+Cape-Town Cairo 400 300
+Canberra Wellington 200 120
+Canberra Jakarta 350 240
+Canberra Washington 1000 600
+Copenhagen Oslo 150 90
+Copenhagen Stockholm 180 120
+Copenhagen Berlin 120 90
+Doha Riyadh 200 90
+Doha Tehran 300 180
+Doha Istanbul 500 240
+Dublin London 150 90
+Dublin Paris 200 120
+Dublin Washington 700 480
+Hanoi Bangkok 150 120
+Hanoi Beijing 400 240
+Hanoi Tokyo 300 180
+Helsinki Stockholm 150 90
+Helsinki Oslo 200 120
+Helsinki Moscow 250 180
+Islamabad Tehran 300 240
+Islamabad Beijing 350 300
+Jeddah Manama 120 90
+Jeddah Riyadh 150 90
+Jeddah Istanbul 400 240
+Jakarta Beijing 500 300
+Jakarta Bangkok 350 180
+Jakarta Canberra 450 240
+Jerusalem Amman 100 60
+Jerusalem Cairo 250 120
+Jerusalem Riyadh 300 180
+Kyiv Moscow 180 120
+Kyiv Berlin 250 150
+Kyiv Warsaw 200 90
+Lima Brasilia 250 180
+Lima Buenos-Aires 300 240
+Lima Santiago 200 180
+London Paris 120 90
+London Berlin 180 90
+London Dublin 100 60
+Luanda Cape-Town 400 180
+Luanda Abuja 450 360
+Luanda Yamoussoukro 300 240
+Madrid Paris 150 120
+Madrid Rabat 200 180
+Madrid Rome 300 240
+Manama Jeddah 120 90
+Manama Doha 150 90
+Manama Riyadh 250 180
+Manama Tehran 300 240
+Mexico-City Washington 450 360
+Mexico-City Buenos-Aires 600 540
+Mexico-City Brasilia 700 480
+Mogadishu Cairo 300 240
+Mogadishu Riyadh 400 300
+Mogadishu N'Djamena 300 240
+Moscow Berlin 400 240
+Moscow Beijing 800 480
+Moscow Tehran 450 300
+Moscow Ankara 400 180
+Moscow Dublin 900 600
+Moscow Islamabad 750 420
+Moscow Yamoussoukro 1000 720
+Moscow Cairo 700 540
+Moscow Bangkok 1100 720
+Moscow Warsaw 500 240
+N'Djamena Niamey 150 90
+N'Djamena Abuja 200 120
+N'Djamena Mogadishu 250 150
+Niamey N'Djamena 150 120
+Niamey Abuja 250 180
+Niamey Algiers 400 240
+Oslo Stockholm 200 120
+Oslo Copenhagen 180 90
+Oslo Helsinki 250 150
+Ottawa Washington 200 90
+Ottawa Amman 900 600
+Ottawa Seoul 1100 720
+Ottawa Berlin 600 360
+Ottawa Ankara 800 480
+Ottawa Paris 700 420
+Ottawa Oslo 400 240
+Ottawa Abu-Dhabi 1000 720
+Paris Berlin 150 90
+Paris Madrid 200 150
+Paris London 150 90
+Rabat Algiers 200 120
+Rabat Madrid 200 150
+Rabat Paris 300 240
+Reykjavik Washington 700 480
+Reykjavik Copenhagen 500 360
+Reykjavik Oslo 550 240
+Rome Paris 200 120
+Rome Berlin 250 180
+Rome Madrid 300 240
+Santiago Buenos-Aires 150 90
+Santiago Lima 250 180
+Santiago Brasilia 400 240
+Seoul Tokyo 350 180
+Seoul Beijing 300 180
+Seoul Washington 700 480
+Stockholm Oslo 150 120
+Stockholm Copenhagen 200 150
+Stockholm Helsinki 180 120
+Tehran Ankara 400 180
+Tehran Baghdad 250 150
+Tehran Islamabad 450 240
+Tehran Jerusalem 320 252
+Tokyo Beijing 500 240
+Tokyo Seoul 300 120
+Tokyo Washington 900 600
+Warsaw Berlin 150 120
+Warsaw Moscow 300 240
+Warsaw Kyiv 180 120
+Washington Islamabad 800 600
+Washington Cairo 700 480
+Washington Ottawa 350 120
+Washington Reykjavik 600 360
+Washington Lima 900 600
+Washington Brasilia 800 480
+Washington Tokyo 1000 720
+Washington Berlin 600 360
+Washington Riyadh 750 480
+Washington Kyiv 800 600
+Washington Abuja 1000 720
+Washington Seoul 1200 720
+Washington London 700 480
+Washington Amman 850 540
+Washington Canberra 1200 720
+Wellington Canberra 250 150
+Wellington Jakarta 500 300
+Wellington Santiago 600 420
+Yamoussoukro Abuja 300 240
+Yamoussoukro Algiers 450 360
+Yamoussoukro Luanda 350 180

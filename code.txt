@@ -1,0 +1,130 @@
+import java.util.*;
+
+class City {
+    String name;
+    int x, y; // Coordinates
+    int index;
+
+    public City(String name, int x, int y, int index) {
+        this.name = name;
+        this.x = x;
+        this.y = y;
+        this.index = index;
+    }
+}
+
+class Edge {
+    int from, to;
+    int cost; 
+    int time;  
+    public Edge(int from, int to, int cost, int time) {
+        this.from = from;
+        this.to = to;
+        this.cost = cost;
+        this.time = time;
+    }
+}
+
+public class DijkstraAirTraffic {
+    private static final int INF = Integer.MAX_VALUE;
+    private List<City> cities;
+    private List<Edge> edges;
+    private Map<Integer, List<Edge>> graph;
+
+    public DijkstraAirTraffic() {
+        cities = new ArrayList<>();
+        edges = new ArrayList<>();
+        graph = new HashMap<>();
+    }
+
+    public void addCity(String name, int x, int y) {
+        int index = cities.size();
+        cities.add(new City(name, x, y, index));
+        graph.put(index, new ArrayList<>());
+    }
+
+    public void addEdge(int from, int to, int cost, int time) {
+        Edge edge = new Edge(from, to, cost, time);
+        edges.add(edge);
+        graph.get(from).add(edge); // Add edge only in the specified direction
+    }
+    
+
+    public void dijkstra(int source, int destination, boolean prioritizeCost) {
+        int n = cities.size();
+        int[] dist = new int[n];
+        int[] prev = new int[n];
+        Arrays.fill(dist, INF);
+        Arrays.fill(prev, -1);
+
+        PriorityQueue<int[]> pq = new PriorityQueue<>(Comparator.comparingInt(a -> a[1]));
+        dist[source] = 0;
+        pq.offer(new int[]{source, 0});
+
+        while (!pq.isEmpty()) {
+            int[] current = pq.poll();
+            int u = current[0];
+
+            if (u == destination) break;
+
+            for (Edge edge : graph.get(u)) {
+                int weight = prioritizeCost ? edge.cost : edge.time;
+                if (dist[u] + weight < dist[edge.to]) {
+                    dist[edge.to] = dist[u] + weight;
+                    prev[edge.to] = u;
+                    pq.offer(new int[]{edge.to, dist[edge.to]});
+                }
+            }
+        }
+
+        printPath(source, destination, prev, dist, prioritizeCost);
+    }
+
+    private void printPath(int source, int destination, int[] prev, int[] dist, boolean prioritizeCost) {
+        if (dist[destination] == INF) {
+            System.out.println("No path found.");
+            return;
+        }
+
+        List<String> path = new ArrayList<>();
+        for (int at = destination; at != -1; at = prev[at]) {
+            path.add(cities.get(at).name);
+        }
+        Collections.reverse(path);
+
+        System.out.println("Optimal Path: " + String.join(" -> ", path));
+        System.out.println("Total " + (prioritizeCost ? "Cost" : "Time") + ": " + dist[destination]);
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        DijkstraAirTraffic dijkstra = new DijkstraAirTraffic();
+
+        // Example map setup
+        dijkstra.addCity("Country1", 1000, 2400);
+        dijkstra.addCity("Country2", 2800, 3000);
+        dijkstra.addCity("Country3", 2400, 2500);
+        dijkstra.addCity("Country4", 4000, 0);
+        dijkstra.addCity("Country5", 4500, 3800);
+        dijkstra.addCity("Country6", 6000, 1500);
+
+        dijkstra.addEdge(0, 1, 500, 120);
+        dijkstra.addEdge(0, 3, 350, 90);
+        dijkstra.addEdge(1, 2, 750, 245);
+        dijkstra.addEdge(1, 4, 378, 110);
+        dijkstra.addEdge(2, 4, 1050, 320);
+        dijkstra.addEdge(2, 3, 459, 145);
+        dijkstra.addEdge(2, 5, 528, 186);
+        dijkstra.addEdge(3, 5, 630, 190);
+        dijkstra.addEdge(4, 5, 230, 85);
+
+        System.out.println("Enter source city index: ");
+        int source = scanner.nextInt();
+        System.out.println("Enter destination city index: ");
+        int destination = scanner.nextInt();
+        System.out.println("Optimize for (1 = Cost, 2 = Time): ");
+        boolean prioritizeCost = scanner.nextInt() == 1;
+
+        dijkstra.dijkstra(source, destination, prioritizeCost);
+    }
+}
