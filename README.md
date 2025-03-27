@@ -7,8 +7,10 @@
 - **Multiple Modes**: Choose from distance, cost, or time as optimization criteria.
 
 ## 📷 Screenshots
-### Main Interface
+### Travel by choosing on map
 ![Travel by choosing on map](./ScreenShots/choose_on_map.png)  
+
+### Travel by selecting cities form comboBox
 ![Travel by selecting cities form comboBox](./ScreenShots/combo_box.png)  
 ## 🛠️ Technologies Used
 - **JavaFX**: For UI design and graphical visualization.
